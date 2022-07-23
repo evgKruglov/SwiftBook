@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        print("1")
         super.viewDidLoad()
         changeLabel.isHidden = true
         changeLabel.layer.cornerRadius = 10
